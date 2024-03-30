@@ -31,11 +31,6 @@ public class Todos {
         return result;
     }
 
-    /**
-     * Метод добавления задачи в список дел
-     *
-     * @param task Добавляемая задача
-     */
     public void add(Task task) { // <- вот здесь в параметре может лежать объект и вида SimpleTask, и вида Epic, и вида Meeting
         tasks = addToArray(tasks, task);
     }
